@@ -35,17 +35,30 @@
     "lint": "bun ultracite check",
     "format": "bun ultracite fix",
     "typecheck": "tsc --noEmit",
+    "prepare": "husky",
     "prepublishOnly": "bun run build",
-    "bump": "bun bumpp",
+    "bump": "bumpp --changelog",
     "publish": "bun publish"
   },
   "devDependencies": {
+    "@commitlint/cli": "^20.3.1",
+    "@commitlint/config-conventional": "^20.3.1",
     "@types/bun": "latest",
     "bumpp": "^10.3.2",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
     "oxfmt": "^0.26.0",
     "oxlint": "^1.41.0",
     "tsdown": "^0.18.1",
     "typescript": "^5.9.3",
     "ultracite": "7.0.12"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx,mjs,cjs}": [
+      "bun ultracite fix"
+    ],
+    "*.{json,md,yml,yaml}": [
+      "bun ultracite fix"
+    ]
   }
 }
