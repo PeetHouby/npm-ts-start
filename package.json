@@ -35,7 +35,9 @@
     "lint": "bun ultracite check",
     "format": "bun ultracite fix",
     "typecheck": "tsc --noEmit",
-    "prepublishOnly": "bun run build"
+    "prepublishOnly": "bun run build",
+    "bump": "bun bumpp",
+    "publish": "bun publish"
   },
   "devDependencies": {
     "@types/bun": "latest",
