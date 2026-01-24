@@ -43,6 +43,7 @@ bun install
 | `bun run format`    | Fix linting and formatting issues   |
 | `bun run typecheck` | Run TypeScript type checking        |
 | `bun run bump`      | Bump version and generate changelog |
+| `bun run release`   | Publish the package to npm          |
 
 ## 📁 Project Structure
 
