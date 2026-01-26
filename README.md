@@ -43,7 +43,6 @@ bun install
 | `bun run format`    | Fix linting and formatting issues   |
 | `bun run typecheck` | Run TypeScript type checking        |
 | `bun run bump`      | Bump version and generate changelog |
-| `bun run release`   | Publish the package to npm          |
 
 ## 📁 Project Structure
 
@@ -104,12 +103,19 @@ When you push a version tag (`v*`), the release workflow:
 2. Publishes to npm with provenance
 3. Creates a GitHub release with auto-generated notes
 
-### Setup for Publishing
+### Setup for Publishing (Trusted Publishing)
 
-Add `NPM_TOKEN` to your repository secrets:
+This template uses [npm Trusted Publishing](https://docs.npmjs.com/trusted-publishers/) with OIDC - no tokens required.
 
-1. Go to **Settings** > **Secrets and variables** > **Actions**
-2. Add `NPM_TOKEN` with your npm automation token
+1. Go to [npmjs.com](https://www.npmjs.com) and navigate to your package settings
+2. Under **Publishing access**, click **Add trusted publisher**
+3. Configure GitHub Actions as the trusted publisher:
+   - **Repository owner**: your GitHub username or org
+   - **Repository name**: your repo name
+   - **Workflow file**: `release.yml`
+   - **Environment** (optional): leave blank
+
+That's it - no secrets or tokens to manage. The workflow uses short-lived OIDC credentials that are automatically generated for each run.
 
 ## 🚢 Publishing
 
